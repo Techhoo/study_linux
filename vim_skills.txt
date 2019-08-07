@@ -61,3 +61,6 @@ PageUP 和PageDown 上下翻页
 :s/old/new/g 替换光标所在行中出现的所有old为new   
 :#,# s/old/new/g 替换从#到#行中出现的所有old为new
 :% s/old/new/g 替换文中出现的所有old为new
+
+w [filename] 另存文件
+n,m w[filename] 将n,m行另存文档
